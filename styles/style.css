@@ -1,0 +1,353 @@
+/* global css starts here */
+svg{
+    font-size: 22px;
+    color: #4267B2;
+}
+img{
+    width: 100%;
+}
+.custom{
+    padding: 0px 40px;
+}
+
+
+/* global css ends here */
+
+.top_head{
+    display: flex;
+    align-items: center;
+}
+.social{
+    display: flex;
+    column-gap: 24px;
+    width: 30%;
+}
+.logo{
+    width: 20%;
+}
+
+.menu{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    background-color: #463B82;
+    padding: 0px 20px;
+}
+.menu ul{
+    display: flex;
+    -moz-column-gap: 36px;
+    column-gap: 36px;
+    list-style: none;
+}
+.menu ul li a {
+    white-space: nowrap;
+    font-weight: 500;
+    line-height: 1.8;
+    color: #EEF8FF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu .search{
+    padding-right: 20px;
+    color: #fff;
+    display: inherit;
+    padding: 2px;
+    border-bottom: 1px solid #EEF8FF;
+}
+.search input{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.search svg{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #EEF8FF;
+}
+/* header css ends here */
+
+.start_content{
+    margin: 20px 0px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url('images/bg.jpg');
+}
+.start_content .img_content{
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #463b82;
+    opacity: 1;
+}
+.img_content p{
+    font-size: 18px;
+}
+.img_content button{
+    background-color: #463B82;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.img_content button:hover{
+    background-color: #fff;
+    color: #463B82;
+    padding: 10px 20px;
+    border: none;
+    transition: 2s;
+}
+.home_about{
+    background-color: #fff;
+}
+.home_about h1{
+    margin: 0px;
+    padding: 16px 0px;
+    text-align: center;
+}
+.home_about p{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 20px 0px;
+}
+.things_start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url(images/bg2.png);
+}
+.things_start h2{
+    margin: 0px;
+}
+
+.things_start button{
+    background-color: #fff;
+    color: #463b82;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.things_start button:hover{
+    background-color: #463B82;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    transition: 2s;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+}
+footer img{
+    width: 80%;
+}
+footer .left_content{
+    padding: 20px;
+    width: 30%;
+}
+footer ul{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 16px;
+    list-style: none;
+}
+footer ul li{
+    line-height: 28px;
+    flex-direction: column;
+    column-gap: 16px;
+    color: #463B82;
+}
+footer ul li a{
+    line-height: 28px;
+    flex-direction: column;
+    column-gap: 16px;
+    text-decoration: none;
+    color: #463B82;
+    font-weight: 500;
+}
+footer p{
+    line-height: 28px;
+    color: #463B82;
+    font-size: 18px;
+    font-weight: 500;
+}
+.copyright{
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* aboutus css starts here */
+.row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .col-6-img {
+    width: 49%;
+  }
+  
+  .about_img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .col-6-desc {
+    width: 49%;
+  }
+  .work-experience {
+    width: 100%;
+    color: gray;
+    border-bottom: 2px solid grey;
+    margin: 0px;
+  }
+  .company {
+    color: silver;
+    width: 30%;
+  }
+  h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  @media (max-width: 600px) {
+    .row {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .col-6-img {
+      width: 100%;
+    }
+    .col-6-desc {
+      width: 100%;
+    }
+    .company {
+      width: 100%;
+    }
+  }
+  /* about us css ends here */
+   
+  /* apply css starts here */
+ .apply_container{
+    background-color: #f2f2f2;
+ }
+
+  .apply_container input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: white;
+    color: #fff;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: white;
+  }
+  input[type="radio"] {
+    background: white;
+  }
+
+  .gender,
+  .skill {
+    background-color: white;
+  }
+  .submitBtn{
+    background-color: #f2f2f2;
+  }
+  .submitBtn input{
+    background-color: #463B82;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.submitBtn input:hover{
+    background-color: #fff;
+    color: #463B82;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 2s ease;
+}
+/* contact us css */
+.main_contact {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    flex: 1;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #000;
+  }
+
+
