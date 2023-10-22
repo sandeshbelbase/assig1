@@ -9,6 +9,16 @@ img{
 .custom{
     padding: 0px 40px;
 }
+table{
+    border: 1px solid red;
+}
+table,th, td{
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
 
 /* global css ends here */
