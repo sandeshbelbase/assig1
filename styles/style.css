@@ -51,6 +51,10 @@ img{
     font-size: 18px;
     text-decoration: none;
 }
+.menu ul li a:hover {
+    transition: 1s;
+ opacity: 0.5;
+}
 
 .menu .search{
     padding-right: 20px;
@@ -269,11 +273,6 @@ footer p{
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
-  .container {
-    border-radius: 5px;
-    padding: 20px;
-  }
-
   .col-25 {
     float: left;
     width: 25%;
@@ -336,7 +335,7 @@ footer p{
     background-color: #f2f2f2;
     flex: 1;
   }
-  input[type="text"],
+  .main_contact input[type="text"],
   select,
   textarea {
     width: 100%;
